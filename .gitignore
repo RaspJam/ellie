@@ -4,3 +4,5 @@ lib/
 pyvenv.cfg
 share/
 .ropeproject/
+__pycache__/
+.DS_Store
