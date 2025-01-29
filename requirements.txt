@@ -1,7 +1,10 @@
 faster_whisper
 # NOTE: tflite-runtime does not seem to work so for now it is commented out
-#tflite-runtime # sometimes pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime
+# try `pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime`
+#tflite-runtime
 openwakeword
 colorama
+# NOTE: will be removed soon
 pyaudio
+sounddevice
 numpy==1.24.0
