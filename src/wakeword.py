@@ -1,6 +1,10 @@
 from src.logger import log
 from openwakeword.model import Model as WakewordModel
+from openwakeword.utils import download_models
 import src.mic as mic
+
+log.info("Download wakeword model if not present")
+download_models(["alexa"])
 
 log.info("Initalize WakewordModel")
 wakewordModel = WakewordModel(["alexa"], vad_threshold=0.5)
