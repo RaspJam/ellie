@@ -1,7 +1,7 @@
 from src.logger import log
 from faster_whisper import WhisperModel
 from src.wakeword import listen_for_wakeword
-import src.mic
+import src.mic as mic
 import numpy as np
 import time
 import sounddevice as sd
