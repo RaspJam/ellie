@@ -1,6 +1,6 @@
-from logger import log
+from src.logger import log
 from openwakeword.model import Model as WakewordModel
-import mic
+import src.mic as mic
 
 log.info("Initalize WakewordModel")
 wakewordModel = WakewordModel(["alexa"], vad_threshold=0.5)
