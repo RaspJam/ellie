@@ -4,7 +4,6 @@ faster_whisper
 #tflite-runtime
 openwakeword
 colorama
-# NOTE: will be removed soon
 pyaudio
-sounddevice
 numpy==1.24.0
+spacy
